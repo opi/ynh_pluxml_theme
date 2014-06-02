@@ -5,7 +5,7 @@
 	<div class="entry-wrap wrap clear">
 		
 		<header class="entry-header">
-			<span class="categories-links"><?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?></span>
+			<!-- <span class="categories-links"><?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?></span> -->
 			<h1 class="entry-title"><?php $plxShow->artTitle('link'); ?></h1>
 		</header><!-- .entry-header -->
 
@@ -31,7 +31,6 @@
             <?php $plxShow->artChapo(); //'<p class="more"><a href="#art_url" title="#art_title">Lire la suite →</a></p>'); ?>
 		</div><!-- .entry-content -->
 		
-		<span class="entry-format-badge genericon"><span class="screen-reader-text">Standard</span></span>
 	</div><!-- .entry-wrap -->
 </article><!-- #post-## -->
 <?php endwhile; ?>

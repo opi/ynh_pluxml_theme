@@ -3,7 +3,7 @@
 	<div class="entry-wrap wrap clear">
 		
 		<header class="entry-header">
-			<span class="categories-links"><?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?></span>
+			<!-- <span class="categories-links"><?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?></span> -->
 			<h1 class="entry-title"><?php $plxShow->artTitle(''); ?></h1>
 		</header><!-- .entry-header -->
 
@@ -27,7 +27,6 @@
 			<?php $plxShow->artContent(); ?>	
 		</div><!-- .entry-content -->
 		
-		<span class="entry-format-badge genericon"><span class="screen-reader-text">Standard</span></span>
 	</div><!-- .entry-wrap -->
 </article><!-- #post-## -->
 	
