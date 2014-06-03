@@ -7,8 +7,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info wrap">
-			<?php $plxShow->mainTitle(); ?>
-			<?php $plxShow->httpEncoding() ?>				
+			<a href="https://yunohost.org" style="color:#999"><?php $plxShow->mainTitle(); ?></a>
+			<?php $plxShow->httpEncoding() ?>
+			 • <a href="https://twitter.com/yunohost" style="color:#999">@YunoHost on Twitter</a>
 		</div><!-- .site-info -->	
 	</footer><!-- #colophon -->
 	
