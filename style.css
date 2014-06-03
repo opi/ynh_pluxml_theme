@@ -75,41 +75,41 @@ a img {
 
 @font-face {
     font-family: 'Source Code Pro';
-    src: url('../fonts/SourceCodePro-ExtraLight-webfont.eot');
-    src: url('../fonts/SourceCodePro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/SourceCodePro-ExtraLight-webfont.woff') format('woff'),
-         url('../fonts/SourceCodePro-ExtraLight-webfont.ttf') format('truetype'),
-         url('../fonts/SourceCodePro-ExtraLight-webfont.svg#fonts/SourceCodeProExtraLight') format('svg');
+    src: url('./fonts/SourceCodePro-Light-webfont.eot');
+    src: url('./fonts/SourceCodePro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/SourceCodePro-Light-webfont.woff') format('woff'),
+         url('./fonts/SourceCodePro-Light-webfont.ttf') format('truetype'),
+         url('./fonts/SourceCodePro-Light-webfont.svg#fonts/SourceCodeProExtraLight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Code Pro';
-    src: url('../fonts/SourceCodePro-Regular-webfont.eot');
-    src: url('../fonts/SourceCodePro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/SourceCodePro-Regular-webfont.woff') format('woff'),
-         url('../fonts/SourceCodePro-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/SourceCodePro-Regular-webfont.svg#fonts/SourceCodeProRegular') format('svg');
+    src: url('./fonts/SourceCodePro-Bold-webfont.eot');
+    src: url('./fonts/SourceCodePro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/SourceCodePro-Bold-webfont.woff') format('woff'),
+         url('./fonts/SourceCodePro-Bold-webfont.ttf') format('truetype'),
+         url('./fonts/SourceCodePro-Bold-webfont.svg#fonts/SourceCodeProRegular') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../fonts/SourceSansPro-Light-webfont.eot');
-    src: url('../fonts/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/SourceSansPro-Light-webfont.woff') format('woff'),
-         url('../fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
-         url('../fonts/SourceSansPro-Light-webfont.svg#fonts/SourceSansProBold') format('svg');
+    src: url('./fonts/SourceSansPro-Regular-webfont.eot');
+    src: url('./fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+         url('./fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+         url('./fonts/SourceSansPro-Regular-webfont.svg#fonts/SourceSansProBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../fonts/SourceSansPro-Bold-webfont.eot');
-    src: url('../fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
-         url('../fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/SourceSansPro-Bold-webfont.svg#fonts/SourceSansProBold') format('svg');
+    src: url('./fonts/SourceSansPro-Bold-webfont.eot');
+    src: url('./fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+         url('./fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+         url('./fonts/SourceSansPro-Bold-webfont.svg#fonts/SourceSansProBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
