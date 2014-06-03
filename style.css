@@ -80,7 +80,7 @@ a img {
          url('../fonts/SourceCodePro-ExtraLight-webfont.woff') format('woff'),
          url('../fonts/SourceCodePro-ExtraLight-webfont.ttf') format('truetype'),
          url('../fonts/SourceCodePro-ExtraLight-webfont.svg#fonts/SourceCodeProExtraLight') format('svg');
-    font-weight: 200;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -90,7 +90,17 @@ a img {
          url('../fonts/SourceCodePro-Regular-webfont.woff') format('woff'),
          url('../fonts/SourceCodePro-Regular-webfont.ttf') format('truetype'),
          url('../fonts/SourceCodePro-Regular-webfont.svg#fonts/SourceCodeProRegular') format('svg');
-    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Light-webfont.eot');
+    src: url('../fonts/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Light-webfont.svg#fonts/SourceSansProBold') format('svg');
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -100,7 +110,7 @@ a img {
          url('../fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
          url('../fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
          url('../fonts/SourceSansPro-Bold-webfont.svg#fonts/SourceSansProBold') format('svg');
-    font-weight: 800;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -138,6 +148,8 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: "Source Sans Pro", sans-serif; 
 	font-weight: 800;
 	margin-bottom: 17px;
+        text-transform: uppercase;
+        letter-spacing: -0.05em;
 }
 h1 {
 	font-size: 34px;
@@ -255,7 +267,7 @@ pre {
 	max-width: 100%;
 }
 code, kbd, tt, var {
-	font: 19px/1.7894736842 Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font: 19px/1.7894736842 "Source Code Pro", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 abbr, acronym {
 	border-bottom: 1px dotted #000;
@@ -828,9 +840,11 @@ body {
 	vertical-align: middle;
 }
 .entry-title {
-	font: 800 68px/1 "Source Sans Pro", sans-serif;
+	font: 800 65px/1 "Source Sans Pro", sans-serif;
+        letter-spacing: -0.05em;
 	margin: 0;
 	max-width: 696px;
+        text-transform: none;
 }
 .entry-title a:hover {
 	color: #333;
@@ -846,8 +860,8 @@ body {
 }
 .entry-meta {
 	display: block;
-	font: 400 13px/1.3076923076 Lato, sans-serif;
-	letter-spacing: 0.1em;
+	font: 400 13px/1.3076923076 "Source Sans Pro", Lato, sans-serif;
+	/*letter-spacing: 0.1em;*/
 	margin-top: 34px;
 	padding: 8px 0 9px;
 	text-transform: uppercase;
